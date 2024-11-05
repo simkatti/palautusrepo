@@ -35,7 +35,10 @@ def main():
         table.add_column("points", style='green')
         for player in players:
             table.add_row(player.name, player.team, str(player.goals), str(player.assists), str(player.points))
+<<<<<<< HEAD
             
+=======
+>>>>>>> edb1e02 (week2 submissions)
         console.print(table)
 
 main()
