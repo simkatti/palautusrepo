@@ -10,4 +10,5 @@ class PlayerStats:
         
         players_by_score = sorted(players, key=lambda player: player.points, reverse=True)
             
+            
         return players_by_score[:10]

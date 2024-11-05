@@ -5,7 +5,6 @@ class PlayerReader:
     def __init__(self, url):
         self.url = url
 
-
     def read(self):
         players = []
         response = requests.get(self.url).json()
